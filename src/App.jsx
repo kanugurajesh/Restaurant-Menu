@@ -7,8 +7,8 @@ const App = () => {
   const [list, setList] = useState([]);
 
   useEffect(() => {
-    // const letters = ["a", "b", "c", "d", "e", "f", "g","h","i","j","k","l","m","n","o","p"];
-    const letters = ["a"];
+    const letters = ["a", "b", "c", "d", "e", "f", "g","h","i","j","k","l","m","n","o","p"];
+    // const letters = ["a"];
     letters.forEach((letter) => {
       fetch("https://www.themealdb.com/api/json/v1/1/search.php?f=" + letter)
       // fetch("https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata")

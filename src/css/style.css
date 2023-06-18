@@ -2,16 +2,13 @@
 *::before,
 *::after {
     box-sizing: border-box;
-}
-
-* {
     margin: 0;
     padding: 0;
 }
 
 body {
     width: 100vw;
-    max-height: 100vw;
+    max-width: 100vw;
 }
 
 header {
@@ -40,13 +37,15 @@ header ul li input {
 }
 
 main {
-    /* width: 100vw; */
+    width: 100vw;
+    max-width: 100vw;
     display: grid;
     /* create as many columns as you need/ */
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     /* make all the grid elements to come to center */
     justify-items: center;
+    padding: 20px;
 }
 
 .dish {
@@ -57,7 +56,10 @@ main {
         "name image"
         "category image";
     gap: 10px;
-    padding: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .dish h1 {
