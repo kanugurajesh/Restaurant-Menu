@@ -5,7 +5,7 @@ const Header = () => {
         <header>
             <nav>
                 <ul>
-                    <li><img src="../images/restaurant.gif" alt="" /></li>
+                    <li><img src="https://ik.imagekit.io/hbzknb1hm/restaurant.gif?updatedAt=1687122581439" alt="" /></li>
                     <li><input type="text" placeholder='name'/></li>
                     <li><input type="text" placeholder='category'/></li>
                     <li><input type="text" placeholder='ingredient'/></li>
