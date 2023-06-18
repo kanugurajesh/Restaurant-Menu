@@ -49,6 +49,7 @@ main {
 }
 
 .dish {
+    position: relative;
     width: 300px;
     max-width: 300px;
     display: grid;
@@ -60,6 +61,26 @@ main {
     border-radius: 5px;
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* when i hover over the .dish then a green slide to move from left to right on .dish */
+
+.dish::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background-color: #00ff00;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.dish:hover::after {
+    opacity: 0.5;
+    left: 0;
 }
 
 .dish h1 {
@@ -84,4 +105,13 @@ main {
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
+}
+
+/* set a media query at max-width 940px */
+@media (min-width: 1000px) {
+    header ul {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 }
