@@ -5,6 +5,7 @@ const Header = () => {
         <header>
             <nav>
                 <ul>
+                    <li><img src="../images/restaurant.gif" alt="" /></li>
                     <li><input type="text" placeholder='name'/></li>
                     <li><input type="text" placeholder='category'/></li>
                     <li><input type="text" placeholder='ingredient'/></li>

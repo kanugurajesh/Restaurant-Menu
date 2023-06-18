@@ -1,0 +1,1 @@
+*,*:before,*:after{box-sizing:border-box}*{margin:0;padding:0}body{width:100vw;max-height:100vw}header{margin:20px}header ul img{width:80px;height:80px}header ul{list-style:none;display:flex;flex-direction:column;text-align:center;gap:15px}header ul li input{width:200px;height:40px;border-radius:5px;border:1px solid #ccc;padding:0 10px}
