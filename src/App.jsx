@@ -6,16 +6,17 @@ import Dish from "./components/dish";
 const App = () => {
   const [list, setList] = useState([]);
 
-  // useEffect(() => {
-  //   const letters = ["a", "b", "c", "d", "e", "f", "g","h","i","j","k","l","m","n","o","p"];
-  //   letters.forEach((letter) => {
-  //     fetch("https://www.themealdb.com/api/json/v1/1/search.php?f=" + letter)
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       setList((prev) => [...prev, ...data.meals]);
-  //     });
-  //   });
-  // }, []);
+  useEffect(() => {
+    // const letters = ["a", "b", "c", "d", "e", "f", "g","h","i","j","k","l","m","n","o","p"];
+    // letters.forEach((letter) => {
+      // fetch("https://www.themealdb.com/api/json/v1/1/search.php?f=" + letter)
+      fetch("https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata")
+      .then((response) => response.json())
+      .then((data) => {
+        setList((prev) => [...prev, ...data.meals]);
+      });
+    // });
+  }, []);
 
   return (
     <div>
