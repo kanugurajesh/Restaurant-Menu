@@ -25,6 +25,4 @@ To use this project, follow these steps:
 To run the project, execute the following command:<br>
 `npm run dev`
 
-## Use it
-<br>
-`https://restaurant-app-c7wi.vercel.app/`
+checkout my website [here](https://restaurant-app-c7wi.vercel.app/)
