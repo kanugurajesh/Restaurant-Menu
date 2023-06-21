@@ -109,14 +109,6 @@ main {
     border-radius: 5px;
 }
 
-.overlay {
-    position: fixed;
-    z-index: 2;
-    width: 1000px;
-    height: 500px;
-    background-color: #ccc;
-}
-
 /* set a media query at max-width 940px */
 @media (min-width: 1000px) {
     header ul {

@@ -25,13 +25,15 @@ const App = () => {
 
   // filtering out the list with the data given as input in the input boxes
   useEffect(()=>{
-    console.log(name)
     let source = list.filter((element)=>{
       return element.strMeal.toLowerCase().startsWith(name.toLowerCase()) && element.strCategory.toLowerCase().startsWith(category.toLowerCase()) && element.strArea.toLowerCase().startsWith(area.toLowerCase())
     })
-
     setData(source)
   },[name,category,area])
+
+  useEffect(() => {
+    setData(list)
+  },[list])
 
   return (
     <div>
@@ -53,6 +55,7 @@ const App = () => {
   );
 };
 
+// rendering the app to the window
 const container = document.getElementById("root");
 const root = createRoot(container);
 root.render(<App />);

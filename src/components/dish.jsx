@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+// basic dish component which takes in props as their input
 const Dish = ({name,category,url}) => {
     return (
         <div className="dish">
