@@ -1,7 +1,6 @@
 # My Restaurant-menu
 <br>
 Welcome to my Restaurant-app! This repository contains all the code and resources for my amazing project.
-![Restaurant App Screenshot](https://ik.imagekit.io/hbzknb1hm/Screenshot_2023-06-21_171258.png?updatedAt=1687348500650)
 
 ## Demo
 Here's a glimpse of my project in action:<br>
