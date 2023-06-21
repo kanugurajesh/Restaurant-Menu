@@ -12,6 +12,7 @@ const App = () => {
   const [data,setData] = useState([]);
 
   useEffect(() => {
+    // fetching data from the api with the letters
     const letters = ["a", "b", "c", "d", "e", "f", "g","h","i","j","k","l","m","n","o","p"];
     letters.forEach((letter) => {
       fetch("https://www.themealdb.com/api/json/v1/1/search.php?f=" + letter)
@@ -22,6 +23,7 @@ const App = () => {
     });
   }, []);
 
+  // filtering out the list with the data given as input in the input boxes
   useEffect(()=>{
     console.log(name)
     let source = list.filter((element)=>{
@@ -33,6 +35,7 @@ const App = () => {
 
   return (
     <div>
+      {/* using context api to pass hooks */}
       <sharedData.Provider value={{setName,setCategory,setArea}}>
         <Header />
       </sharedData.Provider>
