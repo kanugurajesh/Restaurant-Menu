@@ -5,7 +5,7 @@ Welcome to my Restaurant-app! This repository contains all the code and resource
 
 ## Demo
 
-Here's a glimpse of my project in action:
+Here's a glimpse of my project in action:<br>
 ![my gif](https://github.com/rajesh604/restaurant-app/assets/77529419/c6d06701-8e51-4432-93ca-32f6b0025c12)
 
 ## Features
@@ -23,5 +23,5 @@ To use this project, follow these steps:
 
 ## Usage
 
-To run the project, execute the following command:
+To run the project, execute the following command:<br>
 `npm run dev`
