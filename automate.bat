@@ -1,4 +1,4 @@
-#!/bin/bash
+@echo off
 npm run build
 git add *
 git commit -m "Automated commit"
