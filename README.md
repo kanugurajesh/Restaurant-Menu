@@ -6,8 +6,7 @@ Welcome to my awesome project! This repository contains all the code and resourc
 ## Demo
 
 Here's a glimpse of my project in action:
-
-![Demo](https://ik.imagekit.io/hbzknb1hm/my.gif.gif?updatedAt=1687349105695)
+![my gif](https://github.com/rajesh604/restaurant-app/assets/77529419/c6d06701-8e51-4432-93ca-32f6b0025c12)
 
 ## Features
 
