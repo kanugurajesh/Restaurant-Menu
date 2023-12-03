@@ -1,5 +1,10 @@
-# My Restaurant-menu
-<br>
+#### ⭐ star this repo if you like it
+
+<div align="center">
+  <img src="https://github.com/kanugurajesh/Restaurant-Menu/assets/120458029/73285338-5995-4fae-806b-53e7d2e2ea70" alt="" width=150 height=150>
+</div>
+
+# Restaurant Menu
 Welcome to my Restaurant-app! This repository contains all the code and resources for my amazing project.
 
 ## Demo
