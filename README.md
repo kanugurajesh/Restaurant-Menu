@@ -5,7 +5,7 @@
 </div>
 
 # Restaurant Menu
-Welcome to my Restaurant-app! This repository contains all the code and resources for my amazing project.
+🍽️ Welcome to our digital menu! Explore a world of culinary delights with easy filtering features. Find your perfect dish, where every bite tells a story. Your delicious journey starts here.
 
 ## Demo
 Here's a glimpse of my project in action:<br>
